@@ -26,7 +26,7 @@ And then we left .
 cc(left, And)
 ~~~
 
-<div id="punct1" class="sd-parse">
+~~~ sdparse
 We have apples , pears , oranges , and bananas .
 obj(have, apples)
 conj(apples, pears)
@@ -36,4 +36,4 @@ cc(bananas, and)
 punct(pears, ,-4)
 punct(oranges, ,-6)
 punct(bananas, ,-8)
-</div>
+~~~
